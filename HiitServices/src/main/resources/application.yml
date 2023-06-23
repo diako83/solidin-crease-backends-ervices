@@ -1,0 +1,23 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: hiit-service
+  config:
+    import: optional:configserver:http://localhost:9296
+
+
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/Hiit
+    username: diako
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+

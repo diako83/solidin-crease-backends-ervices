@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ConfigServices" />
+        <module name="CardioServices" />
+        <module name="SharedServices" />
+        <module name="KettleBellServices" />
+        <module name="CloudeGateway" />
+        <module name="GymServices" />
+        <module name="auth-service" />
+        <module name="FeignServices (2)" />
+        <module name="Eurika-Server" />
+        <module name="YogaServices" />
+        <module name="DefaultDataServices" />
+        <module name="HiitServices" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service" target="17" />
+      <module name="CardioServices" target="17" />
+      <module name="CloudeGateway" target="17" />
+      <module name="ConfigServices" target="17" />
+      <module name="DefaultDataServices" target="17" />
+      <module name="Eurika-Server" target="17" />
+      <module name="FeignServices" target="17" />
+      <module name="FeignServices (1)" target="17" />
+      <module name="FeignServices (2)" target="17" />
+      <module name="GymServices" target="17" />
+      <module name="HiitServices" target="17" />
+      <module name="KettleBellServices" target="17" />
+      <module name="security" target="17" />
+      <module name="SharedServices" target="17" />
+      <module name="YogaServices" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CardioServices" options="-parameters" />
+      <module name="CloudeGateway" options="-parameters" />
+      <module name="ConfigServices" options="-parameters" />
+      <module name="DefaultDataServices" options="-parameters" />
+      <module name="Eurika-Server" options="-parameters" />
+      <module name="FeignServices" options="-parameters" />
+      <module name="FeignServices (1)" options="-parameters" />
+      <module name="FeignServices (2)" options="-parameters" />
+      <module name="GymServices" options="-parameters" />
+      <module name="HiitServices" options="-parameters" />
+      <module name="KettleBellServices" options="-parameters" />
+      <module name="SharedServices" options="-parameters" />
+      <module name="YogaServices" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
+      <module name="security" options="-parameters" />
+    </option>
+  </component>
+</project>

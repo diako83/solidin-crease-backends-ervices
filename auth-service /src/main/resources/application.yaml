@@ -1,0 +1,37 @@
+
+server:
+  port: 9091
+
+spring:
+  application:
+    name: IDENTITY-SERVICE
+  config:
+    import: optional:configserver:http://localhost:9296
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/auth
+    username: diako
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+mail:
+  host: com.solidincrease.authservice
+  port: 587
+  username: solidincreaseesvb@gmail.coml
+  password: bviqsqjlwzztucsw
+  properties:
+    mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+          required: true
+        ssl:
+          trust: com.solidincrease.authservice

@@ -1,0 +1,166 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: API-GATEWAY
+  config:
+    import: optional:configserver:http://localhost:9296
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/auth
+    username: diako
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+    
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+      routes:
+        - id: CARDIO-SERVICE
+          uri: lb://CARDIO-SERVICE
+          predicates:
+            - Path=/api/v1/cardio/**
+          filters:
+            - name: AuthenticationFilter
+            - name: CircuitBreaker
+              args:
+                name: CARDIO-SERVICE
+                fallbackuri: forward:/cardioServiceFallBack
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 1
+        - id: GYM-SERVICE
+          uri: lb://GYM-SERVICE
+          predicates:
+            - Path=/api/v1/gym/**
+          filters:
+            - name: AuthenticationFilter
+            - name: CircuitBreaker
+              args:
+                name: GYM-SERVICE
+                fallbackuri: forward:/gymServiceFallBack
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 1
+        - id: HIIT-SERVICE
+          uri: lb://HIIT-SERVICE
+          predicates:
+            - Path=/api/v1/hiit/**
+          filters:
+            - name: AuthenticationFilter
+            - name: CircuitBreaker
+              args:
+                name: HIIT-SERVICE
+                fallbackuri: forward:/hiitServiceFallBack
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 1
+
+        - id: KETTLEBELL-SERVICES
+          uri: lb://KETTLEBELL-SERVICES
+          predicates:
+            - Path=/api/v1/kb/**
+          filters:
+            - name: AuthenticationFilter
+            - name: CircuitBreaker
+              args:
+                name: KETTLEBELL-SERVICES
+                fallbackuri: forward:/kbServiceFallBack
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 1
+        - id: FEIGN-SERVICE
+          uri: lb://FEIGN-SERVICE
+          predicates:
+            - Path=/api/v1/user/**
+          filters:
+            - name: AuthenticationFilter
+            - name: CircuitBreaker
+              args:
+                name: FEIGN-SERVICE
+                fallbackuri: forward:/userServiceFallBack
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 1
+
+        - id: YOGA-SERVICES
+          uri: lb://YOGA-SERVICES
+          predicates:
+            - Path=/api/v1/yoga/**
+          filters:
+            - name: AuthenticationFilter
+            - name: CircuitBreaker
+              args:
+                name: YOGA-SERVICES
+                fallbackuri: forward:/yogaServiceFallBack
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 1
+
+        - id: DEFAULTDATA-SERVICE
+          uri: lb://DEFAULTDATA-SERVICE
+          predicates:
+            - Path=/api/v3/cardio/**
+        - id: DEFAULTDATA-SERVICE
+          uri: lb://DEFAULTDATA-SERVICE
+          predicates:
+            - Path=/api/v3/gym/**
+        - id: DEFAULTDATA-SERVICE
+          uri: lb://DEFAULTDATA-SERVICE
+          predicates:
+            - Path=/api/v3/kb/**
+        - id: DEFAULTDATA-SERVICE
+          uri: lb://DEFAULTDATA-SERVICE
+          predicates:
+            - Path=/api/v3/yoga/**
+
+        - id: SHARED-SERVICES
+          uri: lb://SHARED-SERVICES
+          predicates:
+            - Path=/api/v2/cardio/**
+        - id: SHARED-SERVICES
+          uri: lb://SHARED-SERVICES
+          predicates:
+            - Path=/api/v2/gym/**
+        - id: SHARED-SERVICES
+          uri: lb://SHARED-SERVICES
+          predicates:
+            - Path=/api/v2/kb/**
+        - id: SHARED-SERVICES
+          uri: lb://SHARED-SERVICES
+          predicates:
+            - Path=/api/v2/yoga/**
+        - id: SHARED-SERVICES
+          uri: lb://SHARED-SERVICES
+          predicates:
+            - Path=/api/v2/hiit/**
+
+
+
+application:
+  security:
+    jwt:
+      secret-key: e9d4c7d8674af705eee36b7b06998cac1c0fef8e024b2cd7e952d034a4a517a5

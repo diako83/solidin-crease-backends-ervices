@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: DefaultData-service
+  config:
+    import: optional:configserver:http://localhost:9296
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/Defaul
+    username: diako
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+

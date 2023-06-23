@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CardioServices/CardioServices.iml" filepath="$PROJECT_DIR$/CardioServices/CardioServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CloudeGateway/CloudeGateway.iml" filepath="$PROJECT_DIR$/CloudeGateway/CloudeGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigServices/ConfigServices.iml" filepath="$PROJECT_DIR$/ConfigServices/ConfigServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DefaultDataServices/DefaultDataServices.iml" filepath="$PROJECT_DIR$/DefaultDataServices/DefaultDataServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eurika-Server/Eurika-Server.iml" filepath="$PROJECT_DIR$/Eurika-Server/Eurika-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FeignServices/FeignServices (2).iml" filepath="$PROJECT_DIR$/FeignServices/FeignServices (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/GymServices/GymServices.iml" filepath="$PROJECT_DIR$/GymServices/GymServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiitServices/HiitServices.iml" filepath="$PROJECT_DIR$/HiitServices/HiitServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KettleBellServices/KettleBellServices.iml" filepath="$PROJECT_DIR$/KettleBellServices/KettleBellServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedServices/SharedServices.iml" filepath="$PROJECT_DIR$/SharedServices/SharedServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YogaServices/YogaServices.iml" filepath="$PROJECT_DIR$/YogaServices/YogaServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-service /auth-service.iml" filepath="$PROJECT_DIR$/auth-service /auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/solid-increase-backend-services.iml" filepath="$PROJECT_DIR$/.idea/solid-increase-backend-services.iml" />
+    </modules>
+  </component>
+</project>

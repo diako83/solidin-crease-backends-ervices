@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/auth-service /pom.xml" />
+        <option value="$PROJECT_DIR$/CardioServices/pom.xml" />
+        <option value="$PROJECT_DIR$/CloudeGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServices/pom.xml" />
+        <option value="$PROJECT_DIR$/DefaultDataServices/pom.xml" />
+        <option value="$PROJECT_DIR$/Eurika-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/FeignService/pom.xml" />
+        <option value="$PROJECT_DIR$/FeignServices/pom.xml" />
+        <option value="$PROJECT_DIR$/GymServices/pom.xml" />
+        <option value="$PROJECT_DIR$/HiitServices/pom.xml" />
+        <option value="$PROJECT_DIR$/KettleBellServices/pom.xml" />
+        <option value="$PROJECT_DIR$/SharedServices/pom.xml" />
+        <option value="$PROJECT_DIR$/YogaServices/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/FeignService/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

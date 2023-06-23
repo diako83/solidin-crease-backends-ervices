@@ -1,0 +1,23 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: yoga-services
+  config:
+    import: optional:configserver:http://localhost:9296
+
+
+  datasource:
+    password: password
+    url: jdbc:postgresql://localhost:5432/Yoga
+    username: diako
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+

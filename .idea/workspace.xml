@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f5c675d-08d9-4e39-87d8-28ba86ae1e67" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QKtWxM07HJdgFJQXPFeRz76r5b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/diakoismail/Desktop/sido-project/SOLID INCREASE/new solid-increase/solid-increase-backend-services/CloudeGateway",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "f24926dd355e8b15594d48250a8354cc"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CloudeGateway" />
+      <recent name="$PROJECT_DIR$/CloudeGateway/src/main/java/com/soldincrease/CloudeGateway" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend-keycloak-auth" />
+      <recent name="$PROJECT_DIR$/DefaultDataServices/src/main" />
+      <recent name="$PROJECT_DIR$/CardioServices/src/main" />
+      <recent name="$PROJECT_DIR$/CardioServices/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.solidincrease.authservice.repository" />
+      <recent name="com.soldincrease.CloudeGateway" />
+      <recent name="com.soldincrease.CloudeGateway.Repo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.solidincrease.authservice.AuthServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solidincrease.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardioServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CardioServices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soldincrease.CardioServices.CardioServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudeGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CloudeGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soldincrease.CloudeGateway.CloudeGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soldincrease.CloudeGateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ConfigServices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soldincrease.ConfigServices.ConfigServicesApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soldincrease.ConfigServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurikaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Eurika-Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EurikaServer.EurikaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.EurikaServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GymServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="GymServices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soldincrease.GymServices.GymServicesApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soldincrease.GymServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.solidincrease.security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CloudeGatewayApplication" />
+        <item itemvalue="Spring Boot.GymServicesApplication" />
+        <item itemvalue="Spring Boot.AuthServiceApplication" />
+        <item itemvalue="Spring Boot.ConfigServicesApplication" />
+        <item itemvalue="Spring Boot.EurikaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f5c675d-08d9-4e39-87d8-28ba86ae1e67" name="Changes" comment="" />
+      <created>1685114135916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685114135916</updated>
+      <workItem from="1685114137053" duration="8000" />
+      <workItem from="1685115043201" duration="302000" />
+      <workItem from="1685115656023" duration="216000" />
+      <workItem from="1685165574262" duration="595000" />
+      <workItem from="1685464624658" duration="54000" />
+      <workItem from="1686729665782" duration="23000" />
+      <workItem from="1686729739787" duration="732000" />
+      <workItem from="1686736288246" duration="250000" />
+      <workItem from="1686810693186" duration="11000" />
+      <workItem from="1687410469065" duration="786000" />
+      <workItem from="1687411312594" duration="1944000" />
+      <workItem from="1687413285407" duration="8716000" />
+      <workItem from="1687427648552" duration="5884000" />
+      <workItem from="1687441368296" duration="7882000" />
+      <workItem from="1687461132487" duration="5000" />
+      <workItem from="1687497162575" duration="4570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
