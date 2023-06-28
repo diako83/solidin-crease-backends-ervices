@@ -1,8 +1,6 @@
 package com.solidincrease.authservice.controller;
 
-import com.solidincrease.authservice.dto.AuthRequest;
-import com.solidincrease.authservice.dto.HeaderDto;
-import com.solidincrease.authservice.dto.LoginResponse;
+import com.solidincrease.authservice.dto.*;
 import com.solidincrease.authservice.entity.Token;
 import com.solidincrease.authservice.entity.UserCredential;
 import com.solidincrease.authservice.repository.TokenRepository;
@@ -78,8 +76,6 @@ public class AuthController {
         return "Token is valid";
     }
 
-
-
     @GetMapping("/tokval")
     public HeaderDto decompileToken(@RequestHeader("Authorization") String token) {
          String cheekToken = token.replace("Bearer ", "");
@@ -90,9 +86,17 @@ public class AuthController {
 
     @PostMapping("/logout")
     public String logoutToken(@RequestHeader("Authorization") String token) {
-
        return jwtService.logoutToken(token);
+    }
 
+    @PostMapping("/sendcode")
+    public String sendCode(@RequestBody Email email){
+        return   service.generateCode(email.email);
+    }
+
+    @PutMapping ("/change-credentials")
+    public String sendCode(@RequestBody UserCredential credential){
+        return   service.UpdateCredentials(credential);
     }
 }
 
