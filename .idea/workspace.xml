@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f5c675d-08d9-4e39-87d8-28ba86ae1e67" name="Changes" comment="" />
+    <list default="true" id="8f5c675d-08d9-4e39-87d8-28ba86ae1e67" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/FeignServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/client/CardioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/client/GymService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/client/HiitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/client/KbService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/client/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/client/YogaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/dto/Responce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/dto/UserRegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/entity/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/java/com/solidincrease/FeignService/utils/UtilUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignService/src/test/java/com/solidincrease/FeignService/FeignServiceApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +45,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="minikube" />
@@ -32,34 +63,35 @@
     </option>
   </component>
   <component name="ProjectId" id="2QKtWxM07HJdgFJQXPFeRz76r5b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/diakoismail/Desktop/sido-project/SOLID INCREASE/new solid-increase/solid-increase-backend-services/CloudeGateway",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "f24926dd355e8b15594d48250a8354cc"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/diakoismail/Desktop/sido-project/SOLID INCREASE/new solid-increase/solid-increase-backend-services/CloudeGateway&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f24926dd355e8b15594d48250a8354cc&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CloudeGateway" />
@@ -198,11 +230,30 @@
       <workItem from="1687427648552" duration="5884000" />
       <workItem from="1687441368296" duration="7882000" />
       <workItem from="1687461132487" duration="5000" />
-      <workItem from="1687497162575" duration="4570000" />
+      <workItem from="1687497162575" duration="6102000" />
+      <workItem from="1687842158960" duration="2656000" />
+      <workItem from="1687938474093" duration="999000" />
+      <workItem from="1687944095365" duration="10000" />
+      <workItem from="1687959521107" duration="902000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
