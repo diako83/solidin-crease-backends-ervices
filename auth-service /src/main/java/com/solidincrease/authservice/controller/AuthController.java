@@ -11,6 +11,7 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -90,13 +91,17 @@ public class AuthController {
     }
 
     @PostMapping("/sendcode")
-    public String sendCode(@RequestBody Email email){
-        return   service.generateCode(email.email);
+    public ResponseEntity sendCode(@RequestBody Email email){
+        Code code = new Code();
+        code.setCode(service.generateCode(email.email));
+        return ResponseEntity.ok(code);
     }
 
     @PutMapping ("/change-credentials")
-    public String sendCode(@RequestBody UserCredential credential){
-        return   service.UpdateCredentials(credential);
+    public ResponseEntity sendCode(@RequestBody UserCredential credential){
+        UpdateResponse updateResponse = new UpdateResponse();
+        updateResponse.setResponse(service.UpdateCredentials(credential));
+        return   ResponseEntity.ok(updateResponse);
     }
 }
 

@@ -79,7 +79,7 @@ public class AuthService {
                 return "Code sent ";
 
             }else{
-                return "Code not set";
+                return "Code not sent.cheek if you're email ";
 
             }
         }
